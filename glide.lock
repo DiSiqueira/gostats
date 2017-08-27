@@ -1,12 +1,12 @@
-hash: 097ae50f09f700b31fb712b8346a3513e7c4d32b22a27d47e5c855cdcf8a1291
-updated: 2017-07-06T13:56:11.128392389-07:00
+hash: 66e73befe4cb771f2eb6b389234310061556def057f9929dea237785aea0f6ae
+updated: 2017-08-28T00:06:38.735811365+02:00
 imports:
 - name: github.com/kelseyhightower/envconfig
-  version: ac12b1f15efba734211a556d8b125110dc538016
-- name: github.com/Sirupsen/logrus
+  version: f611eb38b3875cc3bd991ca91c51d06446afa14c
+- name: github.com/sirupsen/logrus
   version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
 - name: golang.org/x/sys
-  version: 9bb9f0998d48b31547d975974935ae9b48c7a03c
+  version: d8f5ea21b9295e315e612b4bcf4bedea93454d4d
   subpackages:
   - unix
 testImports: []
