@@ -1,12 +1,17 @@
-hash: 66e73befe4cb771f2eb6b389234310061556def057f9929dea237785aea0f6ae
-updated: 2017-08-28T00:06:38.735811365+02:00
+hash: 5f6a20dfcbd0d3f8669061128596d7b554934928a05f38a7e8d385c9c78b82d8
+updated: 2017-08-28T01:16:37.227752883+02:00
 imports:
 - name: github.com/kelseyhightower/envconfig
   version: f611eb38b3875cc3bd991ca91c51d06446afa14c
 - name: github.com/sirupsen/logrus
-  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - ssh/terminal
 - name: golang.org/x/sys
   version: d8f5ea21b9295e315e612b4bcf4bedea93454d4d
   subpackages:
   - unix
+  - windows
 testImports: []
